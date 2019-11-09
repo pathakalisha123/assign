@@ -89,12 +89,12 @@
 # else:
 #     print('z is greater')
 
-#hw take input of diff subjects
-#nep,eng,math,sci,pop
-#tot,pre,div,pas or fail
+# hw take input of diff subjects
+# nep,eng,math,sci,pop
+# tot,pre,div,pas or fail
 
-#qt=3 delivery-home,pickup  packing; plastic500,gitbox 2000,bag1000  location ma add price 13per if kathmandu
-#total amt,tax amt,grand total,price laptop dini
+# qt=3 delivery-home,pickup  packing; plastic500,gitbox 2000,bag1000  location ma add price 13per if kathmandu
+# total amt,tax amt,grand total,price laptop dini
 # dell = int((input'enter quantity'))
 #
 # dely = input('select home/pickup')
@@ -102,39 +102,36 @@
 #     price = 1000
 
 
-math = int(input('enter math marks:'))
-sci = int(input('enter science marks:'))
-acc = int(input('enter account marks:'))
-eng = int(input('enter eng marks:'))
-nep = int(input('enter nepali marks:'))
-total = math + sci + acc + eng + nep
-print(f'the total marks is {total}')
-per = total / 5
-print(f'percentage is {per}')
-if per >= 35 and per <= 44:
-    print('third division')
-elif per >= 45 and per <= 59:
-    print('second division')
-elif per >= 60 and per <= 79:
-    print('first division')
-elif per >= 80:
-    print('distinction')
-else:
-    print('FAIL')
-
-if math < 50:
-    print('fail in math ')
-if sci < 50:
-    print('fail in science')
-if acc < 50:
-    print('fail in account')
-if eng < 50:
-    print('fail in english ')
-if nep < 50:
-    print('fail in nepali ')
-
-
-
+# math = int(input('enter math marks:'))
+# sci = int(input('enter science marks:'))
+# acc = int(input('enter account marks:'))
+# eng = int(input('enter eng marks:'))
+# nep = int(input('enter nepali marks:'))
+# total = math + sci + acc + eng + nep
+# print(f'the total marks is {total}')
+# per = total / 5
+# print(f'percentage is {per}')
+# if per >= 35 and per <= 44:
+#     print('third division')
+# elif per >= 45 and per <= 59:
+#     print('second division')
+# elif per >= 60 and per <= 79:
+#     print('first division')
+# elif per >= 80:
+#     print('distinction')
+# else:
+#     print('FAIL')
+#
+# if math < 50:
+#     print('fail in math ')
+# if sci < 50:
+#     print('fail in science')
+# if acc < 50:
+#     print('fail in account')
+# if eng < 50:
+#     print('fail in english ')
+# if nep < 50:
+#     print('fail in nepali ')
 
 
 # dell=30000
@@ -176,3 +173,63 @@ if nep < 50:
 # print('thanks for purchasing')
 
 
+# python data types
+# number=int,float,complex
+# string
+# list=array()
+# tuple
+# set
+# dictionary
+
+
+# data=2+5j
+# data=0b1111+5j
+# print(data)
+#
+# print(data.real)
+# print(data.imag)
+
+# list
+# data=['ram','sita','gita','laxmi','hari',2019]
+# # print(type(data))
+# data[2]='madan'
+# # print(data)
+# print(data[2])
+
+# tuple
+# data=('ram','gita','sophia','hari')
+# print(data)
+
+# set
+# data={'ram','sophia','ram'}
+# print(data)
+
+# dictionary
+# data={
+#     'name':'ram',
+#     'age':20,
+#     'phone':12345
+# }
+# print(f" your name is {data['name']}")
+
+# data = [
+#     ['ram', 'hari'],
+#     ['sita', 'gita'],
+#     ['madan', 'raj'],
+#     {'name': 'bimala', 'age': 20},
+#     {'address': [
+#         'ktm',
+#         'bkt'
+#     ]}
+# ]
+# print(f"your name is {data[3]['name']}")
+# print(f'your name is {data[2][1]}')
+
+#in not in
+# name='ram'
+# print('a' in name)
+# print('b' not in name)
+
+
+#loop=for,while(read)
+#yield(how work)
